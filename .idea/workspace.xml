@@ -60,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674459747338</updated>
       <workItem from="1674459749768" duration="2328000" />
-      <workItem from="1674550522148" duration="45971000" />
+      <workItem from="1674550522148" duration="47580000" />
     </task>
     <task id="LOCAL-00001" summary="Курсовая часть 1">
       <created>1674731532529</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674740078040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Доработан">
+      <created>1674742432852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674742432852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +92,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Курсовая часть 1" />
     <MESSAGE value="Доработан 1 и 2 пункт" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доработан 1 и 2 пункт" />
+    <MESSAGE value="Доработан" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработан" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

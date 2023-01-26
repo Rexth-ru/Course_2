@@ -30,10 +30,16 @@ public class Main {
         taskMap.add(task2);
         taskMap.add(task4);
         taskMap.add(task5);
-       // taskMap.remove(1);
-      //  System.out.println(taskMap);
+        try {
+            taskMap.remove(8);
+        } catch (TaskNotFoundException e) {
+            System.out.println("Задачи не существует");
+        }
 
-        System.out.println(taskMap.getAllByDate(LocalDate.of(2023, 1, 26)));
+        System.out.println(taskMap);
+
+        // System.out.println(taskMap.getAllByDate(LocalDate.of(2023, 1, 26)));
+
 
     }
 }
