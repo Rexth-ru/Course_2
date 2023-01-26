@@ -42,6 +42,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,12 +60,24 @@
       <option name="presentableId" value="Default" />
       <updated>1674459747338</updated>
       <workItem from="1674459749768" duration="2328000" />
-      <workItem from="1674550522148" duration="43129000" />
+      <workItem from="1674550522148" duration="44685000" />
     </task>
+    <task id="LOCAL-00001" summary="Курсовая часть 1">
+      <created>1674731532529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674731532529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Курсовая часть 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Курсовая часть 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -69,7 +88,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tasks/TaskService.java</url>
-          <line>18</line>
+          <line>19</line>
           <properties class="tasks.TaskService" method="getAllByDate">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

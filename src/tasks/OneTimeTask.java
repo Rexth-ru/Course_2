@@ -14,7 +14,7 @@ public class OneTimeTask extends Task{
 
     @Override
     public boolean appearsln(LocalDate date) {
-        date.equals(getDateTime());
-        return true;
+        Boolean b = date.equals(getDateTime());
+        return b;
     }
 }

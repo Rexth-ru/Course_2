@@ -13,8 +13,11 @@ public class TaskService{
        taskMap.put(task.getId(), task);
    }
    public Task remove(int id) throws TaskNotFoundException{
-       taskMap.remove(id);
-       return null;
+       if (!taskMap.containsKey(id)){
+           throw new TaskNotFoundException();
+       }else {
+           return  taskMap.remove(id);
+       }
    }
    public Collection<Task> getAllByDate(LocalDate date)  {
 
