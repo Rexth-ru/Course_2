@@ -12,7 +12,7 @@ public class MonthlyTask extends Task{
         super(title, description, type, dateTime);
 
     }
-
+//переопределен метод для добавления ежемесячной задачи
     @Override
     public boolean appearsln(LocalDate date) {
         Boolean b = date.equals(getDateTime().toLocalDate()) ||
