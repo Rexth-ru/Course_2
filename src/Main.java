@@ -38,7 +38,7 @@ public class Main {
 
         System.out.println(taskMap);
 
-        // System.out.println(taskMap.getAllByDate(LocalDate.of(2023, 1, 26)));
+        System.out.println(taskMap.getAllByDate(LocalDate.of(2023, 1, 26)));
 
 
     }
